@@ -12,10 +12,10 @@ require_once __DIR__."/../src/cd.php";
 $app->get("/",function(){
 
 
-        $first_cd = new CD("Master of Reality", "Black Sabbath", "images/reality.jpg", 10.99);
-        $second_cd = new CD("Electric Ladyland", "Jimi Hendrix", "images/ladyland.jpg", 10.99);
-        $third_cd = new CD("Nevermind", "Nirvana", "images/nevermind.jpg", 10.99);
-        $fourth_cd = new CD("I don't get it", "Pork Lion", "images/porklion.jpg", 49.99);
+        $first_cd = new CD("Master of Reality", "Black Sabbath", "http://findicons.com/files/icons/1609/ose_png/256/cd.png", 10.99);
+        $second_cd = new CD("Electric Ladyland", "Jimi Hendrix", "http://findicons.com/files/icons/1609/ose_png/256/cd.png", 10.99);
+        $third_cd = new CD("Nevermind", "Nirvana", "http://findicons.com/files/icons/1609/ose_png/256/cd.png", 10.99);
+        $fourth_cd = new CD("I don't get it", "Pork Lion", "http://findicons.com/files/icons/1609/ose_png/256/cd.png", 49.99);
         $cds = array($first_cd, $second_cd, $third_cd, $fourth_cd);
 
         $output="";
